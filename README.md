@@ -10,15 +10,21 @@ A curated collection of the best open-source AI agent frameworks, tools, and res
 ## Table of Contents
 
 - [Agent Frameworks](#agent-frameworks)
-- [LLM Orchestration](#llm-orchestration)
+- [Code Agents](#code-agents)
+- [Browser & Web Agents](#browser--web-agents)
+- [MCP (Model Context Protocol)](#mcp-model-context-protocol)
+- [Agent Tools & Extensions](#agent-tools--extensions)
+- [Evaluation & Benchmarks](#evaluation--benchmarks)
+- [DevOps & Platform Engineering](#devops--platform-engineering)
+- [AI for Kubernetes](#ai-for-kubernetes)
+- [Self-Hosted LLM & Chat](#self-hosted-llm--chat)
 - [Multi-Agent Systems](#multi-agent-systems)
 - [Autonomous Agents](#autonomous-agents)
 - [RAG & Knowledge](#rag--knowledge)
-- [Agent Tools & Skills](#agent-tools--skills)
-- [Code Agents](#code-agents)
+- [LLM Orchestration](#llm-orchestration)
 - [Voice & Multimodal Agents](#voice--multimodal-agents)
 - [Agent Infrastructure](#agent-infrastructure)
-- [Learning Resources](#learning-resources)
+- [Curated Lists & Learning](#curated-lists--learning)
 
 ---
 
@@ -47,137 +53,207 @@ A curated collection of the best open-source AI agent frameworks, tools, and res
 
 ---
 
-## LLM Orchestration
+## Code Agents
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [LiteLLM](https://github.com/BerriAI/litellm) | 15k+ | Call 100+ LLM APIs in OpenAI format |
-| [Ollama](https://github.com/ollama/ollama) | 120k+ | Run LLMs locally with a simple API |
-| [vLLM](https://github.com/vllm-project/vllm) | 40k+ | High-throughput LLM serving engine |
-| [LocalAI](https://github.com/mudler/LocalAI) | 30k+ | Self-hosted, OpenAI-compatible API |
-| [LMStudio](https://github.com/lmstudio-ai) | - | Desktop app to run local LLMs (free) |
-| [Guidance](https://github.com/guidance-ai/guidance) | 20k+ | Microsoft's language for controlling LLM generation |
-| [DSPy](https://github.com/stanfordnlp/dspy) | 25k+ | Stanford's framework for programming (not prompting) LLMs |
-| [LMQL](https://github.com/eth-zurich-nlp/lmql) | 4k+ | Query language for LLMs combining prompting and programming |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **OpenHands** | [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) | AI-powered software development agents |
+| **Aider** | [Aider-AI/aider](https://github.com/Aider-AI/aider) | AI pair programming in your terminal |
+| **SWE-Agent** | [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) | Autonomous agent that fixes real GitHub issues |
+| **GPT Engineer** | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | Specify what you want — AI builds it |
+| **Devika** | [stitionai/devika](https://github.com/stitionai/devika) | Agentic AI software engineer |
+| **Claude Code Router** | [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Route coding tasks across multiple Claude instances |
+| **Continue** | [continuedev/continue](https://github.com/continuedev/continue) | Open-source AI code assistant (VS Code / JetBrains) |
+| **Cline** | [cline/cline](https://github.com/cline/cline) | Autonomous coding agent for VS Code |
+| **Roo Code** | [RooVetGit/Roo-Code](https://github.com/RooVetGit/Roo-Code) | AI-powered veterinary coding assistant |
+
+---
+
+## Browser & Web Agents
+
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **Browser Use** | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Make AI agents interact with websites |
+| **Skyvern** | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser workflows using LLMs and computer vision |
+| **Open Operator** | [browserbase/open-operator](https://github.com/browserbase/open-operator) | AI-powered browser automation operator |
+| **Stagehand** | [browserbase/stagehand](https://github.com/browserbase/stagehand) | AI web browsing framework by Browserbase |
+| **SurfSense** | [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) | AI-powered research assistant for web browsing |
+
+---
+
+## MCP (Model Context Protocol)
+
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **MCP Servers** | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Official reference MCP server implementations |
+| **Awesome MCP Servers** | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Curated list of MCP servers |
+| **MCP Python SDK** | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | Official Python SDK for building MCP servers/clients |
+| **MCP TypeScript SDK** | [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | Official TypeScript SDK for MCP |
+| **FastMCP** | [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | Fast, Pythonic way to build MCP servers |
+
+---
+
+## Agent Tools & Extensions
+
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **CrewAI Tools** | [crewAIInc/crewAI-tools](https://github.com/crewAIInc/crewAI-tools) | Official tools collection for CrewAI agents |
+| **LangChain Templates** | [langchain-ai/langchain/templates](https://github.com/langchain-ai/langchain/tree/master/templates) | Reference architectures and templates |
+| **OpenHands Agents** | [All-Hands-AI/OpenHands/agents](https://github.com/All-Hands-AI/OpenHands/tree/main/openhands) | Agent implementations in OpenHands |
+| **AutoGen Extensions** | [microsoft/autogen/packages](https://github.com/microsoft/autogen/tree/main/python/packages) | Extension packages for AutoGen |
+| **Composio** | [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | Integration platform for AI agents (200+ tools) |
+| **E2B** | [e2b-dev/e2b](https://github.com/e2b-dev/e2b) | Secure sandboxes for AI agents to run code |
+| **Gorilla** | [ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla) | UC Berkeley's LLM connected to 1,600+ APIs |
+
+---
+
+## Evaluation & Benchmarks
+
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **DeepEval** | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | LLM evaluation framework (unit testing for LLMs) |
+| **Ragas** | [explodinggradients/ragas](https://github.com/explodinggradients/ragas) | Evaluation framework for RAG pipelines |
+| **Promptfoo** | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Test and evaluate LLM prompts, agents, and models |
+| **OpenAI Evals** | [openai/evals](https://github.com/openai/evals) | OpenAI's framework for evaluating LLMs |
+| **AgentBench** | [THUDM/AgentBench](https://github.com/THUDM/AgentBench) | Benchmark for evaluating LLMs as agents |
+| **SWE-Bench** | [SWE-bench/SWE-bench](https://github.com/SWE-bench/SWE-bench) | Benchmark for code agents on real GitHub issues |
+| **Inspect AI** | [UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai) | UK Gov's framework for AI model inspection & evaluation |
+| **HELM** | [stanford-crfm/helm](https://github.com/stanford-crfm/helm) | Stanford's Holistic Evaluation of Language Models |
+
+---
+
+## DevOps & Platform Engineering
+
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **Kubiya AI** | [kubiyabot/community-tools](https://github.com/kubiyabot/community-tools) | AI-powered DevOps agent platform |
+| **Botkube** | [kubeshop/botkube](https://github.com/kubeshop/botkube) | AI-powered Kubernetes troubleshooting (ChatOps) |
+| **K8sgpt** | [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | AI-powered Kubernetes diagnostics |
+| **Popeye** | [derailed/popeye](https://github.com/derailed/popeye) | Kubernetes cluster sanitizer and linter |
+| **Litmus** | [litmuschaos/litmus](https://github.com/litmuschaos/litmus) | Cloud-native chaos engineering platform |
+| **Backstage** | [backstage/backstage](https://github.com/backstage/backstage) | Spotify's developer portal platform |
+| **OpenTelemetry** | [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Vendor-agnostic observability data collection |
+| **ArgoCD** | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | Declarative GitOps CD for Kubernetes |
+| **Tekton** | [tektoncd/pipeline](https://github.com/tektoncd/pipeline) | Cloud-native CI/CD pipeline framework |
+
+---
+
+## AI for Kubernetes
+
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **K8sgpt** | [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | AI-powered scanning and diagnostics for Kubernetes |
+| **Headlamp** | [headlamp-k8s/headlamp](https://github.com/headlamp-k8s/headlamp) | Modern Kubernetes dashboard with plugin system |
+| **Botkube** | [kubeshop/botkube](https://github.com/kubeshop/botkube) | AI Kubernetes troubleshooting via Slack/Teams |
+| **OpenCost** | [opencost/opencost](https://github.com/opencost/opencost) | Open-source Kubernetes cost monitoring |
+| **Kubecost** | [kubecost/cost-analyzer-helm-chart](https://github.com/kubecost/cost-analyzer-helm-chart) | Kubernetes cost analysis and optimization |
+
+---
+
+## Self-Hosted LLM & Chat
+
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **Ollama** | [ollama/ollama](https://github.com/ollama/ollama) | Run LLMs locally with a simple API |
+| **Open WebUI** | [open-webui/open-webui](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT-like interface for local LLMs |
+| **LibreChat** | [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | Enhanced ChatGPT clone supporting many providers |
+| **AnythingLLM** | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | All-in-one AI desktop app with RAG and agents |
+| **LobeChat** | [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) | Modern chat framework supporting multiple AI providers |
 
 ---
 
 ## Multi-Agent Systems
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [OpenAI Swarm](https://github.com/openai/swarm) | 20k+ | Educational framework for multi-agent orchestration |
-| [MetaGPT](https://github.com/geekan/MetaGPT) | 50k+ | Multi-agent framework - assign roles like a software company |
-| [ChatDev](https://github.com/OpenBMB/ChatDev) | 30k+ | Virtual software company with AI agents |
-| [AutoGen Studio](https://github.com/microsoft/autogen) | 40k+ | Visual multi-agent workflow builder |
-| [Camel AI](https://github.com/camel-ai/camel) | 10k+ | Communicative agents for exploring multi-agent behaviors |
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | 20k+ | Autonomous agent for comprehensive online research |
-| [Storm](https://github.com/stanford-oval/storm) | 15k+ | Stanford's knowledge curation system with multi-agent research |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **OpenAI Swarm** | [openai/swarm](https://github.com/openai/swarm) | Educational framework for multi-agent orchestration |
+| **MetaGPT** | [geekan/MetaGPT](https://github.com/geekan/MetaGPT) | Multi-agent framework — assign roles like a software company |
+| **ChatDev** | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Virtual software company with AI agents |
+| **Camel AI** | [camel-ai/camel](https://github.com/camel-ai/camel) | Communicative agents for exploring multi-agent behaviors |
+| **GPT Researcher** | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | Autonomous agent for comprehensive online research |
+| **Storm** | [stanford-oval/storm](https://github.com/stanford-oval/storm) | Stanford's knowledge curation with multi-agent research |
 
 ---
 
 ## Autonomous Agents
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 170k+ | The original autonomous AI agent |
-| [BabyAGI](https://github.com/yoheinakajima/babyagi) | 20k+ | Simple autonomous task-driven agent |
-| [AgentGPT](https://github.com/reworkd/AgentGPT) | 33k+ | Deploy autonomous AI agents in the browser |
-| [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | 16k+ | Dev-first open-source autonomous AI framework |
-| [OpenDevin](https://github.com/OpenDevin/OpenDevin) | 40k+ | Autonomous AI software engineer |
-| [Devon](https://github.com/entropy-research/Devon) | 3k+ | Open-source pair programmer |
-| [Devika](https://github.com/stitionai/devika) | 20k+ | Agentic AI software engineer |
-| [SWE-Agent](https://github.com/princeton-nlp/SWE-agent) | 15k+ | Princeton's agent that fixes real GitHub issues |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **AutoGPT** | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | The original autonomous AI agent |
+| **BabyAGI** | [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) | Simple autonomous task-driven agent |
+| **AgentGPT** | [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) | Deploy autonomous AI agents in the browser |
+| **SuperAGI** | [TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | Dev-first open-source autonomous AI framework |
 
 ---
 
 ## RAG & Knowledge
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [LlamaIndex](https://github.com/run-llama/llama_index) | 40k+ | The leading data framework for RAG |
-| [Chroma](https://github.com/chroma-core/chroma) | 18k+ | Open-source embedding database |
-| [Weaviate](https://github.com/weaviate/weaviate) | 15k+ | AI-native vector database |
-| [Qdrant](https://github.com/qdrant/qdrant) | 22k+ | High-performance vector search engine |
-| [Milvus](https://github.com/milvus-io/milvus) | 32k+ | Scalable vector database for AI apps |
-| [RAGFlow](https://github.com/infiniflow/ragflow) | 30k+ | Deep document understanding RAG engine |
-| [Mem0](https://github.com/mem0ai/mem0) | 25k+ | Memory layer for AI agents (long-term memory) |
-| [GraphRAG](https://github.com/microsoft/graphrag) | 25k+ | Microsoft's graph-based RAG approach |
-| [Kotaemon](https://github.com/Cinnamon/kotaemon) | 20k+ | Open-source RAG-based document QA tool |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **LlamaIndex** | [run-llama/llama_index](https://github.com/run-llama/llama_index) | The leading data framework for RAG |
+| **Chroma** | [chroma-core/chroma](https://github.com/chroma-core/chroma) | Open-source embedding database |
+| **Weaviate** | [weaviate/weaviate](https://github.com/weaviate/weaviate) | AI-native vector database |
+| **Qdrant** | [qdrant/qdrant](https://github.com/qdrant/qdrant) | High-performance vector search engine |
+| **Milvus** | [milvus-io/milvus](https://github.com/milvus-io/milvus) | Scalable vector database for AI apps |
+| **RAGFlow** | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Deep document understanding RAG engine |
+| **Mem0** | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Memory layer for AI agents (long-term memory) |
+| **GraphRAG** | [microsoft/graphrag](https://github.com/microsoft/graphrag) | Microsoft's graph-based RAG approach |
+| **Kotaemon** | [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | Open-source RAG-based document QA tool |
 
 ---
 
-## Agent Tools & Skills
+## LLM Orchestration
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [Composio](https://github.com/ComposioHQ/composio) | 15k+ | Integration platform for AI agents (200+ tools) |
-| [LangChain Tools](https://github.com/langchain-ai/langchain/tree/master/libs/community) | - | Extensive collection of agent tools |
-| [Browser Use](https://github.com/browser-use/browser-use) | 20k+ | Make AI agents interact with websites |
-| [Playwright MCP](https://github.com/anthropics/anthropic-quickstarts) | - | Browser automation for AI agents |
-| [E2B](https://github.com/e2b-dev/e2b) | 5k+ | Secure sandboxes for AI agents to run code |
-| [Toolformer](https://github.com/lucidrains/toolformer-pytorch) | 2k+ | Implementation of "Toolformer: LLMs Can Teach Themselves to Use Tools" |
-| [OpenTools](https://github.com/ShishirPatil/gorilla) | 12k+ | UC Berkeley's Gorilla - LLM connected to APIs |
-
----
-
-## Code Agents
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [Aider](https://github.com/paul-gauthier/aider) | 25k+ | AI pair programming in your terminal |
-| [Continue](https://github.com/continuedev/continue) | 20k+ | Open-source AI code assistant (VS Code/JetBrains) |
-| [Tabby](https://github.com/TabbyML/tabby) | 25k+ | Self-hosted AI coding assistant |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 45k+ | AI-powered software development agents |
-| [Cline](https://github.com/cline/cline) | 20k+ | Autonomous coding agent for VS Code |
-| [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) | 55k+ | Specify what you want - AI builds it |
-| [Sweep](https://github.com/sweepai/sweep) | 8k+ | AI-powered junior developer for GitHub |
-| [Mentat](https://github.com/AbanteAI/mentat) | 3k+ | AI coding assistant that works with your codebase |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **LiteLLM** | [BerriAI/litellm](https://github.com/BerriAI/litellm) | Call 100+ LLM APIs in OpenAI format |
+| **Ollama** | [ollama/ollama](https://github.com/ollama/ollama) | Run LLMs locally with a simple API |
+| **vLLM** | [vllm-project/vllm](https://github.com/vllm-project/vllm) | High-throughput LLM serving engine |
+| **LocalAI** | [mudler/LocalAI](https://github.com/mudler/LocalAI) | Self-hosted, OpenAI-compatible API |
+| **Guidance** | [guidance-ai/guidance](https://github.com/guidance-ai/guidance) | Microsoft's language for controlling LLM generation |
+| **DSPy** | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | Stanford's framework for programming (not prompting) LLMs |
 
 ---
 
 ## Voice & Multimodal Agents
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [Whisper](https://github.com/openai/whisper) | 75k+ | OpenAI's speech recognition model |
-| [Bark](https://github.com/suno-ai/bark) | 38k+ | Text-to-speech model by Suno |
-| [Coqui TTS](https://github.com/coqui-ai/TTS) | 36k+ | Deep learning toolkit for text-to-speech |
-| [LLaVA](https://github.com/haotian-liu/LLaVA) | 22k+ | Large language and vision assistant |
-| [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) | 26k+ | Multimodal GPT-4 like capabilities |
-| [AudioGPT](https://github.com/AIGC-Audio/AudioGPT) | 10k+ | Audio understanding and generation |
-| [Pipecat](https://github.com/pipecat-ai/pipecat) | 5k+ | Framework for building voice and multimodal AI agents |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **Whisper** | [openai/whisper](https://github.com/openai/whisper) | OpenAI's speech recognition model |
+| **Bark** | [suno-ai/bark](https://github.com/suno-ai/bark) | Text-to-speech model by Suno |
+| **Coqui TTS** | [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | Deep learning toolkit for text-to-speech |
+| **LLaVA** | [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) | Large language and vision assistant |
+| **Pipecat** | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Framework for building voice and multimodal AI agents |
 
 ---
 
 ## Agent Infrastructure
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [LangSmith](https://github.com/langchain-ai/langsmith-sdk) | 5k+ | Observability and testing for LLM apps |
-| [LangFuse](https://github.com/langfuse/langfuse) | 10k+ | Open-source LLM observability and analytics |
-| [Phoenix](https://github.com/Arize-ai/phoenix) | 8k+ | ML/LLM observability by Arize |
-| [Weights & Biases](https://github.com/wandb/wandb) | 10k+ | ML experiment tracking and monitoring |
-| [Prefect](https://github.com/PrefectHQ/prefect) | 18k+ | Workflow orchestration for data pipelines |
-| [Temporal](https://github.com/temporalio/temporal) | 13k+ | Durable execution for distributed systems |
-| [Modal](https://github.com/modal-labs/modal-client) | 2k+ | Serverless cloud for AI/ML workloads |
-| [MCP (Model Context Protocol)](https://github.com/modelcontextprotocol) | 10k+ | Anthropic's protocol for connecting AI to tools |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **LangSmith** | [langchain-ai/langsmith-sdk](https://github.com/langchain-ai/langsmith-sdk) | Observability and testing for LLM apps |
+| **LangFuse** | [langfuse/langfuse](https://github.com/langfuse/langfuse) | Open-source LLM observability and analytics |
+| **Phoenix** | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | ML/LLM observability by Arize |
+| **Weights & Biases** | [wandb/wandb](https://github.com/wandb/wandb) | ML experiment tracking and monitoring |
+| **Prefect** | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | Workflow orchestration for data pipelines |
+| **Temporal** | [temporalio/temporal](https://github.com/temporalio/temporal) | Durable execution for distributed systems |
 
 ---
 
-## Learning Resources
+## Curated Lists & Learning
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [LLM Course](https://github.com/mlabonne/llm-course) | 45k+ | Complete course on LLMs with roadmaps |
-| [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 70k+ | Microsoft's 21-lesson course |
-| [LangChain Cookbook](https://github.com/langchain-ai/langchain/tree/master/cookbook) | - | Official recipes and examples |
-| [AI Agent Tutorials](https://github.com/NirDiamant/GenAI_Agents) | 10k+ | Comprehensive tutorials on AI agents |
-| [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 55k+ | Comprehensive prompt engineering resources |
-| [OpenAI Cookbook](https://github.com/openai/openai-cookbook) | 62k+ | Examples and guides for using OpenAI API |
-| [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) | 20k+ | Curated list of LLM resources |
-| [Build a Large Language Model](https://github.com/rasbt/LLMs-from-scratch) | 40k+ | Build an LLM from scratch (book code) |
-| [Deep Learning AI Short Courses](https://www.deeplearning.ai/short-courses/) | - | Free courses by Andrew Ng on AI agents |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **Awesome Agents** | [kyrolabs/awesome-agents](https://github.com/kyrolabs/awesome-agents) | Curated list of AI agents |
+| **Awesome AI Agents** | [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | Comprehensive list of AI agents by E2B |
+| **Awesome LLM Apps** | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM-powered apps |
+| **Awesome Generative AI** | [steven2358/awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | Curated list of generative AI tools and resources |
+| **Awesome LangChain** | [kyrolabs/awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | Curated list of LangChain resources |
+| **LLM Course** | [mlabonne/llm-course](https://github.com/mlabonne/llm-course) | Complete course on LLMs with roadmaps |
+| **Generative AI for Beginners** | [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | Microsoft's 21-lesson course |
+| **Prompt Engineering Guide** | [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | Comprehensive prompt engineering resources |
+| **OpenAI Cookbook** | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | Examples and guides for using OpenAI API |
+| **Build LLM from Scratch** | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Build a large language model from scratch (book code) |
 
 ---
 
