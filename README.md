@@ -24,20 +24,26 @@ A curated collection of the best open-source AI agent frameworks, tools, and res
 
 ## Agent Frameworks
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [LangChain](https://github.com/langchain-ai/langchain) | 100k+ | The most popular framework for building LLM-powered applications |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | 10k+ | Build stateful, multi-actor applications with LLMs as graphs |
-| [CrewAI](https://github.com/crewAIInc/crewAI) | 25k+ | Framework for orchestrating role-playing autonomous AI agents |
-| [AutoGen](https://github.com/microsoft/autogen) | 40k+ | Microsoft's framework for multi-agent conversation |
-| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | 25k+ | Microsoft's SDK for integrating AI into apps |
-| [Haystack](https://github.com/deepset-ai/haystack) | 20k+ | End-to-end NLP framework for building AI pipelines |
-| [LlamaIndex](https://github.com/run-llama/llama_index) | 40k+ | Data framework for LLM applications (RAG, agents, workflows) |
-| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 10k+ | Agent framework from the Pydantic team, type-safe |
-| [Smolagents](https://github.com/huggingface/smolagents) | 15k+ | Hugging Face's lightweight agent library |
-| [Phidata](https://github.com/phidatahq/phidata) | 20k+ | Build AI agents with memory, knowledge, and tools |
-| [Agency Swarm](https://github.com/VRSEN/agency-swarm) | 5k+ | Framework for creating collaborative AI agent swarms |
-| [Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents) | 2k+ | Lightweight, modular framework for building AI agents |
+| Project | GitHub | Description |
+|---------|--------|-------------|
+| **LangChain** | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | The most popular framework for building LLM-powered applications |
+| **LangGraph** | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Build stateful, multi-actor applications with LLMs as graphs |
+| **DeepAgents** | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | LangChain's deep research and planning agents |
+| **OpenAI Agents SDK** | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | OpenAI's official Python SDK for building agents |
+| **CrewAI** | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing autonomous AI agents |
+| **AutoGen** | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft's framework for multi-agent conversation |
+| **AG2** | [ag2ai/ag2](https://github.com/ag2ai/ag2) | Next-gen AutoGen — open-source AgentOS |
+| **Semantic Kernel** | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Microsoft's SDK for integrating AI into apps |
+| **Google ADK** | [google/adk-python](https://github.com/google/adk-python) | Google's Agent Development Kit for building AI agents |
+| **PydanticAI** | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Agent framework from the Pydantic team, type-safe |
+| **Mastra** | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | TypeScript AI agent framework with built-in workflows |
+| **Agno** | [agno-agi/agno](https://github.com/agno-agi/agno) | Lightweight library for building multi-modal AI agents |
+| **LlamaIndex** | [run-llama/llama_index](https://github.com/run-llama/llama_index) | Data framework for LLM applications (RAG, agents, workflows) |
+| **Haystack** | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | End-to-end NLP framework for building AI pipelines |
+| **Smolagents** | [huggingface/smolagents](https://github.com/huggingface/smolagents) | Hugging Face's lightweight agent library |
+| **Phidata** | [phidatahq/phidata](https://github.com/phidatahq/phidata) | Build AI agents with memory, knowledge, and tools |
+| **Agency Swarm** | [VRSEN/agency-swarm](https://github.com/VRSEN/agency-swarm) | Framework for creating collaborative AI agent swarms |
+| **Atomic Agents** | [BrainBlend-AI/atomic-agents](https://github.com/BrainBlend-AI/atomic-agents) | Lightweight, modular framework for building AI agents |
 
 ---
 
